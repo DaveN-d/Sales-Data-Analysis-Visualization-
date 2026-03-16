@@ -1,16 +1,14 @@
-# Sales Data Analysis & Visualization
+Sales Data Analysis & Visualization
 
 This project performs exploratory data analysis (EDA) and creates insightful visualizations on sales data using Python, Pandas, Matplotlib, and Seaborn.
 
----
-
-## 📊 Project Overview
+Project Overview
 
 - Analyzed sales performance across different cities, categories, and products.
 - Identified monthly sales trends and top-performing products.
 - Generated key business insights through interactive visualizations.
 
-### Key Visualizations Included:
+Key Visualizations Included:
 - Monthly Sales Trend
 - Sales by Category
 - Sales by City
@@ -18,13 +16,32 @@ This project performs exploratory data analysis (EDA) and creates insightful vis
 
 ---
 
-## 🛠️ Technologies Used
+Technologies Used
 
-- **Python**
-- **Pandas** – Data manipulation and analysis
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Exploratory analysis
+- Python
+- Pandas – Data manipulation and analysis
+- Matplotlib & Seaborn – Data visualization
+- Jupyter Notebook – Exploratory analysis
 
+ How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone git@github.com:DaveN-d/Sales-Data-Analysis-Visualization-.git
+   cd Sales-Data-Analysis-Visualization-
+
+2. Create a virtual Environment
+   python -m venv .venv
+Windows
+.venv\Scripts\activate
+Mac/Linux
+source .venv/bin/activate
+
+3. Install dependencies:
+   pip install -r requirements.txt   
+
+
+Project Structure
 - Sales-Data-Analysis-Visualization/
 ├── data/
 │   └── sales_analysis.csv
@@ -38,28 +55,3 @@ This project performs exploratory data analysis (EDA) and creates insightful vis
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:DaveN-d/Sales-Data-Analysis-Visualization-.git
-   cd Sales-Data-Analysis-Visualization-
-
-2. Create a virtual Environment
-   python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Mac/Linux
-source .venv/bin/activate
-
-3. Install dependencies:
-   pip install -r requirements.txt   
-
-
----
-
-## 📁 Project Structure
